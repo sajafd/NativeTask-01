@@ -28,6 +28,6 @@ decorate(CoffeeStore, {
 
 const coffeeStore = new CoffeeStore();
 
-this.fetchAllCoffeeShops();
+coffeeStore.fetchAllCoffeeShops();
 
 export default coffeeStore;

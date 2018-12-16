@@ -4,7 +4,7 @@ import { observer } from "mobx-react";
 import { Text, List, Button } from "native-base";
 // Component
 import CartItem from "./CartItem";
-import cartStore from ".../stores/cartStore";
+import cartStore from "../../stores/CartStore";
 
 class CoffeeCart extends Component {
   constructor(props) {

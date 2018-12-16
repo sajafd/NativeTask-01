@@ -5,7 +5,7 @@ import { List, Content } from "native-base";
 
 // Store
 
-import coffeeStore from ".../stores/CoffeeStore";
+import coffeeStore from "../../stores/CoffeeStore";
 import { observer } from "mobx-react";
 
 // Component
